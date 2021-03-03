@@ -383,7 +383,6 @@ app.loader
 function init(){
     drawCircle();
     animate();
-    moveLetters();
 }
 
 function drawCircle(){
@@ -408,8 +407,6 @@ function animate(){
     // Position
     planet.x = window.innerWidth * 0.51;
     planet.y = window.innerHeight * 0.5;
-/*  console.log("planet.x:", window.innerWidth);
-    console.log("planet.y:", window.innerHeight); */
     
     //Size
     planet.width = window.innerWidth / 2.79272727; //550

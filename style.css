@@ -205,6 +205,12 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+.preloader h2{
+  top: 30%;
+  position: relative;
+  color: white;
+}
+
 .preloader-icon{
   position: relative;
   top: 22%;
