@@ -1,5 +1,9 @@
 //Preloader
-window.onload = function(){ document.querySelector(".preloader").style.display = "none"; }
+setTimeout(preloader, 10800);
+
+function preloader(){ 
+    document.querySelector(".preloader").style.display = "none"; 
+};
 
 //------------------------------------------------------------------!!! PLANET !!!-------------------------------------------------------------
 //Variables
