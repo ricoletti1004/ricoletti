@@ -1,5 +1,6 @@
 //Preloader
-setTimeout(preloader, 10800);
+//setTimeout(preloader, 10800);
+window.onload = preloader();
 
 function preloader(){ 
     document.querySelector(".preloader").style.display = "none"; 
